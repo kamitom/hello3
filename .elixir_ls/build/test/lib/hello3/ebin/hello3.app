@@ -11,6 +11,8 @@
                         'Elixir.Hello3Web.ErrorHelpers',
                         'Elixir.Hello3Web.ErrorView',
                         'Elixir.Hello3Web.Gettext',
+                        'Elixir.Hello3Web.Hello3Controller',
+                        'Elixir.Hello3Web.Hello3View',
                         'Elixir.Hello3Web.LayoutView',
                         'Elixir.Hello3Web.PageController',
                         'Elixir.Hello3Web.PageView','Elixir.Hello3Web.Router',
