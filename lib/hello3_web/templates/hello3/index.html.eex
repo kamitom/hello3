@@ -1,4 +1,29 @@
 <div class="jumbotron">
-  <h2>Hello3 KamiTom, live reload?!</h2>
-  <h3>no live reload !!</h3>
+  <h2>Hello3, live reload?!</h2>
+  <p>
+  <a href='<%= hello3_path(@conn, :show, "Tom") %>'>
+  Say hello to Tom
+  </a>
+  </p>
+  <p>
+  xx_var value is: <%= @xx_var %>
+  </p>
+</div>
+
+<div class="row marketing">
+  <div class="col-lg-6">
+    <h4>Resources</h4>
+    <ul>
+      <li>
+        <a href="/">127.0.0.1:4800</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-6">
+    <h4>Elixir Channel</h4>
+    <div id="eli-messages">
+    <input id='eli-chat' type='text'>
+    </div>
+  </div>
 </div>

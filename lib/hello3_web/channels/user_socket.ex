@@ -2,7 +2,8 @@ defmodule Hello3Web.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", Hello3Web.RoomChannel
+  channel "room:*", Hello3Web.RoomChannel
+  channel "eliroom:*", Hello3Web.EliRoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket

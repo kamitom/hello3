@@ -18,6 +18,9 @@ defmodule Hello3Web.Router do
 
     get "/", PageController, :index
     get "/hello", Hello3Controller, :index
+    get "/hello/:msgA", Hello3Controller, :show
+
+    resources "/users", UserController  # for CRUD
   end
 
   # Other scopes may use custom stacks.

@@ -1,7 +1,14 @@
 <div class="jumbotron">
-  <h2><%= gettext "KamiTom, Welcome to %{name}!", name: "Phoenix" %></h2>
+  <h2><%= gettext "蜘蛛人：新宇宙, Welcome to %{name}!", name: "Phoenix" %></h2>
+  <h4>Google Map Ifrmame test !</h4>
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
-  <p class="lead">新聞 南亞火藥庫？<br/>強い嵐</p>
+</div>
+
+<div class='col-lg-6'>
+<div id='messages'></div>
+<label>Leave message:</label><br>
+<input id='chat-input' type='text'><br>
+<label>(Phoenix.Channel - Exercise)</label>
 </div>
 
 <div class="row marketing">
@@ -18,7 +25,13 @@
         <a href="https://github.com/phoenixframework/phoenix">Source</a>
       </li>
       <li>
-        <a href="https://itriweb.itri.org.tw/">ITRI Web</a>
+        <a href="http://suzuki51.ml" target="_blank">鈴木的工作態度3！</a>
+      </li>
+      <li>
+        <a href="/hello">URL to KamiTom</a>
+      </li>
+      <li>
+        <a href="/users">Users Contexts</a>
       </li>
     </ul>
   </div>
