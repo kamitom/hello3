@@ -1,5 +1,5 @@
 <div class="jumbotron">
-  <h2><%= gettext "蜘蛛人：新宇宙, Welcome to %{name}!", name: "Phoenix" %></h2>
+  <h2><%= gettext "復仇者4, Welcome to %{name}!", name: "Phoenix" %></h2>
   <h4>Google Map Ifrmame test !</h4>
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
 </div>
