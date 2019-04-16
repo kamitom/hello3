@@ -8,6 +8,9 @@
   <p>
   xx_var value is: <%= @xx_var %>
   </p>
+  <p>
+  cloud balena: <%= @balenaApps %>
+  </p>
 </div>
 
 <div class="row marketing">

@@ -31,6 +31,9 @@
         <a href="/hello">URL to KamiTom</a>
       </li>
       <li>
+        <a href="/hi">hi balena Cloud</a>
+      </li>
+      <li>
         <a href="/users">Users Contexts</a>
       </li>
     </ul>

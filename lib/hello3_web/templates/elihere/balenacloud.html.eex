@@ -1,0 +1,9 @@
+<h1>From template: Hello world!</h1>
+
+<ul>
+<li><a href="/">back to Page</a></li>
+</ul>
+
+<p>
+cloud balena: <%= inspect @smoothie %>
+</p>
